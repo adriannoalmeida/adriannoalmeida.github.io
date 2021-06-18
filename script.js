@@ -14,24 +14,24 @@ function verificar(){
         if (fsex[0].checked){
             genero = 'Homem'
             if (idade >=0 && idade < 10){
-                img.setAttribute('src', 'babymale.png')
+                img.setAttribute('src', 'https://adriannoalmeida.github.io/babymale.png')
             }else if (idade < 20){
-                img.setAttribute('src', 'youngmale.png')
+                img.setAttribute('src', 'https://adriannoalmeida.github.io/youngmale.png')
             }else if (idade < 50){
-                img.setAttribute('src', 'adultmale.png')
+                img.setAttribute('src', 'https://adriannoalmeida.github.io/adultmale.png')
             }else {
-                img.setAttribute('src', 'eldermale.png')
+                img.setAttribute('src', 'https://adriannoalmeida.github.io/eldermale.png')
             }
         } else if (fsex[1].checked) {
             genero = 'Mulher'
             if (idade >=0 && idade < 10){
-                img.setAttribute('src', 'babyfemale.png')
+                img.setAttribute('src', 'https://adriannoalmeida.github.io/babyfemale.png')
             }else if (idade < 20){
-                img.setAttribute('src', 'youngfemale.png')
+                img.setAttribute('src', 'https://adriannoalmeida.github.io/youngfemale.png')
             }else if (idade < 50){
-                img.setAttribute('src', 'adultfemale.png')
+                img.setAttribute('src', 'https://adriannoalmeida.github.io/adultfemale.png')
             }else {
-                img.setAttribute('src', 'elderfemale.png')
+                img.setAttribute('src', 'https://adriannoalmeida.github.io/elderfemale.png')
             }
         }    
         res.style.textAlign = 'center'
